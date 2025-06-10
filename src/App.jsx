@@ -9,7 +9,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const API_KEY = import.meta.env.VITE_API_KEY;
+  const API_KEY = "5b6c447c231d21970cd45c7020e8f789";
   const API_URL = `https://api.openweathermap.org/data/2.5/weather`;
 
   const fetchWeather = async (city) => {
